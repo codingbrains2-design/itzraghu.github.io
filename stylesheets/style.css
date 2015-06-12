@@ -41,7 +41,7 @@
 	height: 500px;
 	width: 100px;
 	float:right;
-	background: url('images/img2.jpg') center center no-repeat;
+	background: url('../images/img2.jpg') center center no-repeat;
 	background-size: cover;
 
 }
