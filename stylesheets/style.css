@@ -16,7 +16,7 @@
 	height: 500px;
 	width: 100px;
 	float: left;
-	background: url('images/img2.jpg') center center no-repeat;
+	background: url('../images/img2.jpg') center center no-repeat;
 	background-size: cover;
 
 }
