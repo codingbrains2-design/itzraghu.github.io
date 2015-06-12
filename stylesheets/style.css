@@ -14,7 +14,7 @@
 	margin: 7px 0px 0px -7px;
 	padding: 20px;
 	height: 500px;
-	width: 200px;
+	width: 100px;
 	float: left;
 	background: url('images/img2.jpg') center center no-repeat;
 	background-size: cover;
@@ -28,7 +28,7 @@
 	margin: 7px 0px 0px -7px;
 	height: 500px;
 	width: auto;
-	min-width: 875px;
+	min-width: 1074px;
 	background-color: #000;
 	float: left;
 	color: #fff;
@@ -39,7 +39,7 @@
 	margin: 7px -7px;
 	padding: 20px;
 	height: 500px;
-	width: 200px;
+	width: 100px;
 	float:right;
 	background: url('images/img2.jpg') center center no-repeat;
 	background-size: cover;
