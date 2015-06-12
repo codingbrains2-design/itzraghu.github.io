@@ -21,15 +21,7 @@
 
 }
 
-.box{
 
-	height: 100px;
-	width: 100px;
-	border: 1px solid black;
-	border-radius: 25%;
-	background-color: red;
-	float: left;
-}
 
 .container
 {
