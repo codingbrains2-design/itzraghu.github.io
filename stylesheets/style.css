@@ -4,15 +4,15 @@
     margin: 0px;
     min-height: 650px;
     height: auto;
-    width: 100%;
+    width: 98%;
     background-color: #E9E5E5;
 }
 #header
 {
-	margin: -7px;
+
 	height: 100px;
 	width: 98%;
-	padding: 20px;
+	
 	background-color: #9799DE;
 }
 
@@ -38,7 +38,6 @@
 	width: 48%;
 	
 	background-color: #000;
-	float: left;
 	color: #fff;
 }
 
@@ -60,7 +59,7 @@
 	margin: -7px;
 	height: 100px;
 	width: 98%;
-	padding: 20px;
+
 	background-color: #aaaaaa;
 }
 -
