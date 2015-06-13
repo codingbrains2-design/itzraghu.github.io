@@ -1,8 +1,16 @@
 
+.wrapper{
+    padding: 0px;
+    margin: 0px;
+    min-height: 650px;
+    height: auto;
+    width: 100%;
+    background-color: #E9E5E5;
+}
 #header
 {
 	margin: -7px;
-	height: 50px;
+	height: 100px;
 	width: 98%;
 	padding: 20px;
 	background-color: #9799DE;
@@ -13,8 +21,8 @@
 {
 	margin: 7px 0px 0px -7px;
 	padding: 20px;
-	height: 500px;
-	width: 100px;
+	height: 450px;
+	width: 25%;
 	float: left;
 	background: url('../images/img2.jpg') center center no-repeat;
 	background-size: cover;
@@ -26,9 +34,9 @@
 .container
 {
 	margin: 7px 0px 0px -7px;
-	height: 500px;
-	width: auto;
-	min-width: 1074px;
+	height: 450px;
+	width: 48%;
+	
 	background-color: #000;
 	float: left;
 	color: #fff;
@@ -38,8 +46,8 @@
 {
 	margin: 7px -7px;
 	padding: 20px;
-	height: 500px;
-	width: 100px;
+	height: 450px;
+	width: 25%;
 	float:right;
 	background: url('../images/img2.jpg') center center no-repeat;
 	background-size: cover;
@@ -48,10 +56,9 @@
 
 #footer
 {
-	position: absolute;
-	bottom: 0px;
+
 	margin: -7px;
-	height: 50px;
+	height: 100px;
 	width: 98%;
 	padding: 20px;
 	background-color: #aaaaaa;
