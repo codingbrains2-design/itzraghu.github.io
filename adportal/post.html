@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>AdPortal</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+		</div>
+		<div class="nav">
+			<ul class="nav_link">
+				<div class="nav_link_div"><a href="http://localhost/adportal/index.html"><li class="nav_link_list">HOME</li></a></div>
+				<div class="nav_link_div"><a href="#"><li class="nav_link_list">POST AD</li></a></div>
+				<div class="nav_link_div"><a href="#"><li class="nav_link_list">CONTACT US</li></a></div>
+				<div class="nav_link_div"><a href="#"><li class="nav_link_list">ABOUT</li></a></div>
+			</ul>
+		</div>
+		<div class="post_table">
+			
+			<form method = "post" action="php/post.php" enctype="multipart/form-data">  
+				<table>
+					<tr>
+						<td>
+							Ad Title of Post:
+						</td>
+						<td>
+							<input type="text" id="ad_title" name="ad_title">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Price:	
+						</td>
+						<td>
+							<input type="text" id="price" name="price">
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							Model:
+						</td>
+						<td>
+							<input type="text" id="model" name="model">
+						</td>
+					</tr>
+					
+
+				</tr>
+				<tr>
+					<td>
+						Ad description:
+					</td>
+					<td>
+						<textarea rows="5" cols="21" id="description" name="description"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Name:
+					</td>
+					<td>
+						<input type="text" id="name" name="name">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Email:
+					</td>
+					<td>
+						<input type="text" id="email" name="email">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Phone:
+					</td>
+					<td>
+						<input type="text" id="phone" name="phone">
+					</td>
+				</tr>
+				<tr/>
+				<td>
+					City:
+				</td>
+				<td>
+					<input type="text" id="city" name="city">
+				</td>
+			</tr>
+			<tr>
+				<td>Add Image</td>
+				<td>
+					<input id="file" type="file" name="file" />
+				</td>
+				<tr>
+					<td></td>
+					<td>
+						<button type="submit" id="ad_btn">Submit Post</button>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/post.js"></script>
+
+</body>
+</html>
