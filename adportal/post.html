@@ -11,8 +11,8 @@
 		</div>
 		<div class="nav">
 			<ul class="nav_link">
-				<div class="nav_link_div"><a href="http://itzraghu.github.io/adportal/"><li class="nav_link_list">HOME</li></a></div>
-				<div class="nav_link_div"><a href="http://itzraghu.github.io/adportal/post.html"><li class="nav_link_list">POST AD</li></a></div>
+				<div class="nav_link_div"><a href="http://localhost/adportal/index.html"><li class="nav_link_list">HOME</li></a></div>
+				<div class="nav_link_div"><a href="#"><li class="nav_link_list">POST AD</li></a></div>
 				<div class="nav_link_div"><a href="#"><li class="nav_link_list">CONTACT US</li></a></div>
 				<div class="nav_link_div"><a href="#"><li class="nav_link_list">ABOUT</li></a></div>
 			</ul>
@@ -89,20 +89,27 @@
 					<input type="text" id="city" name="city">
 				</td>
 			</tr>
+			<td>
+				Category:
+			</td>
+			<td>
+				<input type="text" id="city" name="category">
+			</td>
+		</tr>
+		<tr>
+			<td>Add Image</td>
+			<td>
+				<input id="file" type="file" name="file" />
+			</td>
 			<tr>
-				<td>Add Image</td>
+				<td></td>
 				<td>
-					<input id="file" type="file" name="file" />
+					<button type="submit" id="ad_btn">Submit Post</button>
 				</td>
-				<tr>
-					<td></td>
-					<td>
-						<button type="submit" id="ad_btn">Submit Post</button>
-					</td>
-				</tr>
-			</table>
-		</form>
-	</div>
+			</tr>
+		</table>
+	</form>
+</div>
 </div>
 <script src="js/jquery.js"></script>
 <script src="js/post.js"></script>

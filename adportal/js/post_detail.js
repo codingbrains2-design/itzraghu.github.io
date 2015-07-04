@@ -1,4 +1,6 @@
 $(document).ready(function() {
+
+	//$('.post_detail_table >tbody>tr:last').html('');
 	
 	$.ajax({
 		url: 'php/post_detail.php',
@@ -18,7 +20,8 @@ $(document).ready(function() {
 					if (key === 'email') { $('#email').append(value); };
 					if (key === 'phone') { $('#phone').append(value); };
 					if (key === 'city') { $('#city').append(value); };
-					if (key === 'path') { $('#path').append(value); };
+					if (key === 'category') { $('#category').append(value); };
+					if (key === 'path') { $('#path').attr('src', value.slice(3) ) };
 				});
 			});
 

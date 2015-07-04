@@ -1,0 +1,114 @@
+.container
+{
+	width: 1280px;
+	background-color: #F5F7FA;
+	margin: 0 auto 0;
+}
+
+.header
+{
+	background-color: #19B5FE;
+	width: 100%;
+	height: 65px;
+}
+.left
+{
+	width: 25%;
+	float: left;
+}
+
+.middle
+{
+	margin-top: 160px;
+	width: 45%;
+	text-indent: justify;
+	color: #000;
+	font-weight: bold;
+	float: left;
+}
+
+.zwitter_head{
+	font-family: 'Philosopher', sans-serif;
+	color: #F22613;
+	font-size: 2em;
+}
+
+.content{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.right
+{
+	padding-right: 10px;
+	width: 25%;
+	float: right;
+}
+
+.img
+{
+	margin:200px 10px 200px 10px;
+	height: 200px;
+	width: 200px;
+}
+
+.login
+{
+	background-color: #EEEEEE;
+	padding: 10px;
+	margin-top: 50px;
+	border-radius: 15px; 
+	font-family: 'Arvo', serif;
+	color: #000;
+}
+
+.register
+{
+	background-color: #EEEEEE;
+	padding: 10px;
+	color: #000;
+	border-radius: 15px; 
+	font-family: 'Arvo', serif;
+
+}
+
+footer{
+	clear: both;
+	background-color: #19B5FE;
+	width: 1280px;
+	height: 40px;
+	text-align: center;
+	font-family: 'Arvo', serif;
+	font-weight: bold;
+	line-height: 35px;
+}
+
+.icon{
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+	padding: 10px 0px 0px 0px ;
+	float: right;
+}
+
+
+.form-control {
+	color: #434a54;
+	border-color: #aab2bd;
+	border-radius: 5px;
+	height: 25px;
+}
+
+.btn{
+	width: 100px;
+	height: 30px;
+	border-radius: 15px;
+	font-family: 'Arvo', serif;
+	font-weight: bold;
+	background-color: #fff;
+}
+
+.btn:hover{
+	background-color: #000;
+	color: #fff;
+	transition:0.5s linear all;
+}

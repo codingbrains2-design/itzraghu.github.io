@@ -1,11 +1,13 @@
 $(document).ready(function() {
 
-	$('#submit').on('click', function(){
+	$('#regBtn').on('click', function(){
 		
 		var name = $('#name').val();
 		var contact = $('#contact').val();
 		var email = $('#email').val();
 		var password = $('#password').val();
+
+		alert(name);
 
 		$.ajax({
 			url:'php/register.php',

@@ -10,18 +10,17 @@
 		<div class="header">
 		</div>
 		<div class="nav">
-				<ul class="nav_link">
-				<div class="nav_link_div"><a href="http://itzraghu.github.io/adportal/"><li class="nav_link_list">HOME</li></a></div>
-				<div class="nav_link_div"><a href="http://itzraghu.github.io/adportal/post.html"><li class="nav_link_list">POST AD</li></a></div>
+			<ul class="nav_link">
+				<div class="nav_link_div"><a href="http://localhost/adportal/index.html"><li class="nav_link_list">HOME</li></a></div>
+				<!-- <div class="nav_link_div"><a href="#"><li class="nav_link_list">POST AD</li></a></div> -->
 				<div class="nav_link_div"><a href="#"><li class="nav_link_list">CONTACT US</li></a></div>
 				<div class="nav_link_div"><a href="#"><li class="nav_link_list">ABOUT</li></a></div>
 			</ul>
 		</div>
-		<div class="table">
-			
-			<form method="post">
+		<div class="login">
+			<form>
 				<table>
-
+					<h3>Login Here</h3>
 					<tr>
 						<td>Email:</td><td> <input type="text" id="email"></td>
 					</tr>
@@ -29,17 +28,43 @@
 						<td>Password:</td><td> <input type="password" id="password"></td>
 					</tr>	
 					<tr><td></td><td>
-						<input type="button" value="submit" id="submit"></td></tr>
+						<input type="button" value="Login" id="submit"></td></tr>
 					</table>
 
 				</form>
 
 			</div>
-		</div>
+			<div class="register">
+				<h3>Not Registered? Register Now</h3>
+				<hr>
+				<form>
+					<table>
+						<tr>
+							<td>Name:</td><td> <input type="text" id="name"></td>
+						</tr>
+						<tr>
+							<td>Contact:</td><td> <input type="text" id="contact"></td>
+						</tr>	
+						<tr>
+							<td>Email:</td><td> <input type="text" id="email"></td>
+						</tr>
+						<tr>
+							<td>Password:</td><td> <input type="password" id="password"></td>
+						</tr>
+						<tr><td><input type="button" value = "Submit" id="regBtn"></td>
+						</table>	
 
-		<script src="js/jquery.js"></script>
-		<script src="js/login.js"></script>
-		<script src="js/main.js"></script>
 
-	</body>
-	</html>
+					</form>
+
+				</div>
+			</div>
+
+			<script src="js/jquery.js"></script>
+			<script src="js/login.js"></script>
+			<script src="js/main.js"></script>
+			<script src="js/register.js"></script>
+
+
+		</body>
+		</html>
