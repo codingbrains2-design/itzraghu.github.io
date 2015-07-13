@@ -6,7 +6,7 @@ h3
 .container
 {
 	width: 1339px;
-	min-height: 650px;
+	min-height: 670px;
 	height: auto;
 	margin: -7px;
 }
@@ -15,7 +15,7 @@ h3
 .sidebar
 {
 	position: fixed;
-	height: 650px;
+	height: 670px;
 	width:270px;
 	background-color: #264348;
 	color: #fff;
@@ -27,16 +27,16 @@ h3
 	margin-top: 70px;
 	margin-left: 5px;
 	height: 100px;
-	width: 80px;
+	width: 95px;
 	float: left;
 }
 .name
 {
-	margin: 155px 0px 0px 20px;
+	margin: 155px 0px 0px 15px;
 	height: 100px;
 	width: 100px;
 	color: #fff;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	font-family: 'Galdeano', sans-serif;
 	float: left;
 }
@@ -67,7 +67,7 @@ h3
 .main_page
 {
 	position: relative;
-	height: 650px;
+	height: 670px;
 	width: 1069px;
 	background-image: url('../image/user.JPG');
 	background-repeat: no-repeat;
@@ -89,7 +89,7 @@ h3
 .about_container
 {
 
-	height: 650px;
+	height: 670px;
 	width: 1069px;
 	float: right;
 	background-color: #ECF0F1;
@@ -148,7 +148,7 @@ h3
 .skills
 {
 
-	height: 650px;
+	height: 670px;
 	width: 1069px;
 	background-color:#26C281; 
 
@@ -163,30 +163,10 @@ h3
 }
 
 
-.resume
-{
-
-	height: 650px;
-	width: 1069px;
-	float: right;
-	border:1px solid red;
-	float: right;
-
-}
-.education
-{
-
-	height: 650px;
-	width: 1069px;
-	float: right;
-	border:1px solid red;
-	float: right;
-
-}
 .contact_container
 {
 
-	height: 500px;
+	height: 670px;
 	width: 1069px;
 	float: right;
 	background-image: url('../image/map.jpg');
@@ -232,8 +212,147 @@ h3
 	float: left;
 
 
-<<<<<<< HEAD
 }
-=======
+
+.resume_container
+{
+	height: 670px;
+	width: 1069px;
+	background-image: url('../image/resume.gif');
+	background-size: cover;
+	background-repeat: no-repeat; 
+	float: right;
+
+
 }
->>>>>>> origin/master
+
+.resume_title
+{
+	color: #fff;
+	font-family: 'Lora', serif;
+	font-size: 2.5em;
+	margin: 20px 0px 0px 50px;	
+}
+.resume_develop_area
+{
+	min-height: 400px;
+	height: auto;
+	width: 350px;
+	margin:120px 0px 0px 220px;
+	text-align: justify;
+	border:1px solid #fff;
+	background:#fff;
+	opacity: 0.6;
+	border-radius: 40px;
+	float: left;
+
+}
+.resume_design_area:hover
+{
+	background-color: #C3272B;
+	
+}
+.resume_design_area
+{
+	min-height: 400px;
+	height: auto;
+	width: 350px;
+	margin:120px 0px 0px 120px;
+	text-align: justify;
+	border:1px solid #fff;
+	background:#fff;
+	opacity: 0.6;
+	border-radius: 40px;
+	float: left;
+
+
+}
+.resume_develop_area:hover
+{
+	background-color: #C3272B;
+}
+.resume_logo
+{
+	/*color: #red;*/
+	height: 75px;
+	width: 75px;
+	text-align: center;
+	margin-left: 130px;
+	z-index: 1;
+}
+
+.resume_content
+{
+	height:120px;
+	width: 200px;
+	color: red;
+	margin-top: 50px;
+	margin-left: 60px;
+	padding:20px;
+}
+
+
+.education
+{
+
+	height: 650px;
+	width: 1069px;
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	float: right;
+
+}
+.education_graduation
+{
+	min-height: 200px;
+	height: auto;
+	width: 350px;
+	margin:10px 0px 0px 100px;
+	text-align: justify;
+	border:1px solid #fff;
+	background:#F2F4F4;
+	border-radius: 40px;
+	float: left;
+
+}
+
+.education_intermediate
+{
+	min-height: 200px;
+	height: auto;
+	width: 350px;
+	margin: 150px 100px 0px 0px;
+	text-align: justify;
+	border:1px solid #fff;
+	background:#22A7F0;
+	border-radius: 40px;
+	float: right;
+
+}
+
+.education_highschool
+{
+	min-height: 200px;
+	height: auto;
+	width: 350px;
+	margin: 150px 0px 0px 100px;
+	text-align: justify;
+	border:1px solid #fff;
+	background:#F2F4F4;
+	border-radius: 40px;
+	float: left;
+
+}
+.education_title
+{
+	color: #000;
+	font-family: 'Lora', serif;
+	font-size: 2.5em;
+	margin: 20px 0px 0px 50px;	
+}
+.education_content
+{
+	
+}
