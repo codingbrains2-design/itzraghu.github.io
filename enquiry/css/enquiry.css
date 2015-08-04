@@ -1,0 +1,145 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section 
+div,
+h1, h2, h3, h4, h5, h6,
+p{
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /*width: 100%;
+  height: 100%;*/
+  font-family: 'Lato',sans-serif;
+  font-weight: 300;
+  color: #000;
+  background: url(../img/grid.png) repeat 0 0;
+}
+
+/*CAROUSEL LEFT RIGHT CIRCLE BUTTON*/
+
+.carousel {
+  position: relative;
+  margin-bottom: 20px;
+  line-height: 1;
+}
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 25px;
+  color: #ffffff;
+  text-align: center;
+  background: #222222;
+  border: 3px solid #ffffff;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  border-radius: 23px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.carousel-control.right {
+  left: auto;
+  right: 15px;
+}
+.carousel-control:hover,
+.carousel-control:focus {
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+
+.client h1
+{
+  font-size: 4em;
+  font-weight: 800;
+  color: #DC3023;
+}
+
+.client a
+{
+  text-decoration: none;
+}
+
+.admin{
+  z-index:2;
+  position: absolute;
+  top: 200px;
+  right:200px;
+  font-weight: 800;
+  color: #fff; 
+  text-align: center;
+}
+
+.navbar{
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+}
+
+.navbar-inverse a 
+{ 
+  color: #fff !important; 
+}
+
+.login-panel
+{
+  margin-top: 119px;
+}
+
+.center{
+  text-align: center;
+}
+
+form
+{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.para
+{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#about-us h1
+{
+  text-align: center;
+  font-family: 'Ubuntu Mono', ;
+  font-size: 5em;
+}
+
+footer
+{
+  color:#fff;
+  clear: both;
+  padding:20px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #303030;
+}
+
+.copyright a
+{
+  color: #F22613;
+  font-weight: 600;
+}
+

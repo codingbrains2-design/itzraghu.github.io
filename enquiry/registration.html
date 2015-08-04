@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>EMS</title>
+  <!-- Sets initial viewport load and disables zooming  -->
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- Latest compiled and minified CSS -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/enquiry.css">
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+
+      <!--nav-->
+      <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Enquiry Management System</a>
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a class="nav-link" href="aboutUs.html"><i class="fa fa-users"></i> About Us</a></li>
+              <li><a class="nav-link" href="registration.html"> Become our member</a></li>
+              <li><a class="nav-link" href="#"><i class="fa fa-gift"></i> What we offer</a></li>
+              <li><a class="nav-link" href="#"><i class="fa fa-phone"></i> Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <section id="admin-login" class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h4 class="panel-title">Client Registration Form</h4>
+              </div>
+              <div class="panel-body">
+                <form class="form-horizontal" role="form">
+                  
+                  <div class="form-group">
+                    <div class="col-sm-3">
+                      <label for="name">Full Name:-</label>
+                    </div>
+                    <div class="col-sm-9">
+                      <input type="text" id="name" name="name" class="form-control">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-3">
+                      <label for="username">Desired Username:- </label>
+                    </div>
+                    <div class="col-sm-9">
+                      <input type="text" id="username" name="username" class="form-control">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-3">
+                      <label for="password">Password:- </label>
+                    </div>
+                    <div class="col-sm-9">
+                      <input type="password" id="password" name="password" class="form-control">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-3">
+                      <label for="accountType">Account Type:- </label>
+                    </div>
+                    <div class="col-sm-9">
+                      <select id="accountType" name="accountType" class="form-control">
+                        <option value="">---Please Select---</option>
+                        <option value="">Organisation</option>
+                        <option value="">Firm</option>
+                        <option value="">Industry</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-3">
+                      <label for="companyName">Company Name:- </label>
+                    </div>
+                    <div class="col-sm-9">
+                      <input type="text" id="companyName" name="companyName" class="form-control">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-3">
+                      <label for="email">Email:- </label>
+                    </div>
+                    <div class="col-sm-9">
+                      <input type="email" id="email" name="email" class="form-control">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-3">
+                      <label for="address">Address:- </label>
+                    </div>
+                    <div class="col-sm-9">
+                      <textarea name="address" id="address" cols="30" rows="3" class="form-control"></textarea>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-3">
+                      <label for="mobile">Mobile No.:- </label>
+                    </div>
+                    <div class="col-sm-9">
+                      <input type="text" id="mobile" name="mobile" class="form-control">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-3">
+                      <label for="tel">Tel No.:- </label>
+                    </div>
+                    <div class="col-sm-9">
+                      <input type="text" id="telephone" name="tel" class="form-control">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-3">
+                    </div>
+                    <div class="col-sm-9">
+                      <button type="button" id="regBtn" class="btn btn-primary">Register</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <footer>
+        <p class="copyright">Copyright &copy; 2015 <a href="http://zorrofoxtech.com/">zorrofox technologies pvt. ltd.</a></p>
+      </footer>
+
+      <script src="js/jquery-1.10.1.min.js"></script>
+      <!-- Latest compiled and minified JavaScript -->
+      <!-- // <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/register.js"></script>
+      <script src="js/session-check.js"></script>
+
+
+    </body>
+    </html>
