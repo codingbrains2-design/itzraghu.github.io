@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Online Exam</title>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/exam.css">
+  
+</head>
+<body>
+  <div id="wrapper">
+    <!--nav-->
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Online Examination</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="nav-link" href="myAccount.html">My Account</a></li>
+            <li><a class="nav-link" href="php/logout.php">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <section class="subjects" class="container">
+        <!-- <div class="row">
+          <div class="col-md-4 col-md-offset-1"><span class="label label-danger">Time: </span></div>
+        </div> -->
+        <div class="row">
+          <div id="php_set1_q1" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q1">1</label></b> Which of these is not a bitwise operator?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques1-1" >&amp;
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques1-2" >&amp;=
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques1-3" >!=
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques1-4" >&lt;=
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q2" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q2">2</label></b>  Which operator is used to invert all the digits in binary representation of a number?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques2-1" > ~
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques2-2" > &lt;&lt;&lt;
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques2-3" >&gt;&gt;&gt;
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques2-4" >^
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q3" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q3">3</label></b> How can you stop the finally() block from executing, after try-catch block execution?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques3-1" > by calling return statement from try or catch block
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques3-2" >by calling System.exit from try or catch block
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques3-3" >by Both return and System.exit
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques3-4" >None of these
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q4" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q4">4</label></b> What will happen when you attempt to compile and run the following code?
+              <pre>
+                int Output = 10;
+                boolean b1 = false;
+                if((b1 == true) &amp;&amp; ((Output += 10) == 20))
+                {
+                System.out.println("We are equal " + Output);
+              }
+              else
+              {
+              System.out.println("Not equal! " + Output);
+            }  
+          </pre>
+        </p>
+        <form class="form" role="form">
+          <div class="form-group">
+            <div class="radio">
+              <label>
+                <input type="radio" id="rb1" name="optionradios" value="Ques4-1" >Compilation error, attempting to perform binary comparison on logical data type.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" id="rb2" name="optionradios" value="Ques4-2" >Compilation and output of "We are equal 10".
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" id="rb3" name="optionradios" value="Ques4-3" >Compilation and output of "Not equal! 20".
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" id="rb4" name="optionradios" value="Ques4-4" >Compilation and output of "Not equal! 10".
+              </label>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div id="php_set1_q5" class="col-sm-6 col-md-10 col-md-offset-1">
+        <p class="lead page-header">
+          <b>Ques. <label id="q5">5</label></b> Can you override private or static method in Java. Yes or No?
+        </p>
+        <form class="form" role="form">
+          <div class="form-group">
+            <div class="radio">
+              <label>
+                <input type="radio" id="rb1" name="optionradios" value="Ques5-1" >  Yes
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" id="rb2" name="optionradios" value="Ques5-2" >No
+              </label>
+            </div>
+
+          </div>
+        </form>
+      </div>
+
+      <div id="php_set1_q6" class="col-sm-6 col-md-10 col-md-offset-1">
+        <p class="lead page-header">
+          <b>Ques. <label id="q6">6</label></b> Can you access non static variable in static context?
+        </p>
+        <form class="form" role="form">
+          <div class="form-group">
+            <div class="radio">
+              <label>
+                <input type="radio" id="rb1" name="optionradios" value="Ques6-1" > Yes
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" id="rb2" name="optionradios" value="Ques6-2" >No
+              </label>
+            </div>
+
+          </div>
+        </form>
+      </div>
+
+      <div id="php_set1_q7" class="col-sm-6 col-md-10 col-md-offset-1">
+        <p class="lead page-header">
+          <b>Ques. <label id="q7">7</label></b> What is the output of this program?
+          <pre>
+            class bitwise_operator {
+            public static void main(String args[])
+            {
+            int var1 = 42;
+            int var2 = ~var1;
+            System.out.print(var1 + " " + var2);      
+          } 
+        }
+      </pre>
+    </p>
+    <form class="form" role="form">
+      <div class="form-group">
+        <div class="radio">
+          <label>
+            <input type="radio" id="rb1" name="optionradios" value="Ques7-1" >  42 42
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" id="rb2" name="optionradios" value="Ques7-2" >43 43
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" id="rb3" name="optionradios" value="Ques7-3" >42 -43
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" id="rb4" name="optionradios" value="Ques7-4" >42 -42
+          </label>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div id="php_set1_q8" class="col-sm-6 col-md-10 col-md-offset-1">
+    <p class="lead page-header">
+      <b>Ques. <label id="q8">8</label></b> Java is designed for the distributed environment of the Internet, because it handles _________ protocols.
+    </p>
+    <form class="form" role="form">
+      <div class="form-group">
+        <div class="radio">
+          <label>
+            <input type="radio" id="rb1" name="optionradios" value="Ques8-1" > UDP
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" id="rb2" name="optionradios" value="Ques8-2" >TCP/IP
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" id="rb2" name="optionradios" value="Ques8-3" >FTP
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" id="rb2" name="optionradios" value="Ques8-4" >TEL
+          </label>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div id="php_set1_q9" class="col-sm-6 col-md-10 col-md-offset-1">
+    <p class="lead page-header">
+      <b>Ques. <label id="q9">9</label></b> Which of the following is not an exception in Java?
+    </p>
+    <form class="form" role="form">
+      <div class="form-group">
+        <div class="radio">
+          <label>
+            <input type="radio" id="rb1" name="optionradios" value="Ques9-1" > Nullpointer Exception
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" id="rb2" name="optionradios" value="Ques9-2" >Arithmetic Exception
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" id="rb2" name="optionradios" value="Ques9-3" >ArrayoutofBounds Exception
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" id="rb2" name="optionradios" value="Ques9-4" >Logical Exception
+          </label>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div id="php_set1_q10" class="col-sm-6 col-md-10 col-md-offset-1">
+    <p class="lead page-header">
+      <b>Ques. <label id="q10">10</label></b> What is the Output of this program?
+      <pre>
+        class Output {
+        public static void main(String args[]) 
+        {    
+        int x, y = 1;
+        x = 10;
+        if (x != 10 &amp;&amp; x / 0 == 0)
+        System.out.println(y);
+        else
+        System.out.println(++y);
+      } 
+    }
+  </pre>
+</p>
+<form class="form" role="form">
+  <div class="form-group">
+    <div class="radio">
+      <label>
+        <input type="radio" id="rb1" name="optionradios" value="Ques10-1" >1
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" id="rb2" name="optionradios" value="Ques10-2" >2
+      </label>
+    </div> 
+    <div class="radio">
+      <label>
+        <input type="radio" id="rb2" name="optionradios" value="Ques10-3" >Runtime error owing to division by zero
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" id="rb2" name="optionradios" value="Ques10-4" >Unpredictable behaviour
+      </label>
+    </div>
+    <br>
+  </div>
+</form>
+</div>
+<div class="col-sm-6 col-md-8 col-md-offset-2">
+  <a id="subBtn" class="btn btn-primary btn-lg btn-block">Submit</a>
+</div>
+</div>
+<br><br>
+</section>
+</div>
+
+<footer>
+  <p>Copyright &copy; 2015 <a href="http://zorrofoxtech.com/">zorrofox technologies pvt. ltd.</a></p>
+</footer>
+</div>
+
+<script src="js/jquery-1.10.1.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/java-set2-answer.js"></script>
+
+
+</body>
+</html>

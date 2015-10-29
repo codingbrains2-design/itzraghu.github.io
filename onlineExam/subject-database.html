@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Online Exam</title>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/exam.css">
+  
+</head>
+<body>
+  <div id="wrapper">
+    <!--nav-->
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Online Examination</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="nav-link" href="myAccount.html">My Account</a></li>
+            <li><a class="nav-link" href="php/logout.php">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <section class="subjects" class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-3">
+            <a href="">
+              <div class="thumbnail">
+                <img src="img/user-home/database.png" class="img-responsive img-rounded" alt="">
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-9">
+            <h2 class="page-header">DATABASE</h2>
+            <p class="lead">
+             A database is an organized collection of data. It is the collection of schemes, tables, queries, reports, views and other objects. The data is typically organized to model aspects of reality in a way that supports processes requiring information, such as modelling the availability of rooms in hotels in a way that supports finding a hotel with vacancies.
+           </p>
+           <form class="form" role="form">
+            <div class="form-group">
+              <h2>
+                Instructions
+              </h2>
+              <ul>
+                <li>Start test by selecting one of the SET.</li>
+                <li>Every set have 10 <b>MCQ</b> questions.</li>
+                <!-- <li>There is Time limit of 10 minutes in every set.</li> -->
+                <li>All questions are compulsory.</li>
+              </ul>
+              <br>
+              <div class="radio">
+                <label>
+                  <input type="radio" id="rb1" name="optionradios" id="rb1" value="database-Set-1">Set-1 
+                  <span class="label label-default">Easy</span>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" id="rb2" name="optionradios" id="rb2" value="database-Set-2" >Set-2
+                  <span class="label label-info">Medium</span>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" id="rb3" name="optionradios" id="rb3" value="database-Set-3" >Set-3
+                  <span class="label label-danger">Hard</span>
+                </label>
+              </div>
+              <a class="btn btn-primary btn-lg btn-block" id="quickTestBtn"> QUICK TEST</a>
+              
+              <!-- <a href="" class="btn btn-primary btn-lg btn-block">QUICK TEST</a> -->
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>Copyright &copy; 2015 <a href="http://zorrofoxtech.com/">zorrofox technologies pvt. ltd.</a></p>
+  </footer>
+</div>
+
+<script src="js/jquery-1.10.1.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/login.js"></script>
+<script src="js/select-set.js"></script>
+
+<!-- <script src="js/session-check.js"></script> -->
+
+
+
+</body>
+</html>

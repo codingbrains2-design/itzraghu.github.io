@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Online Exam</title>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/exam.css">
+  
+</head>
+<body>
+  <div id="wrapper">
+    <!--nav-->
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Online Examination</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="nav-link" href="myAccount.html">My Account</a></li>
+            <li><a class="nav-link" href="php/logout.php">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <section class="subjects" class="container">
+        <!-- <div class="row">
+          <div class="col-md-4 col-md-offset-1"><span class="label label-danger">Time: </span></div>
+        </div> -->
+        <div class="row">
+          <div id="php_set1_q1" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q1">1</label></b> Which of the following selector matches a element based on its class attribute?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques1-1" >The Type Selector
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques1-2" >The Universal Selector
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques1-3" >The Descendant Selector
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques1-4" >The Class Selector
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q2" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q2">2</label></b> Which of the following defines a measurement in inches?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques2-1" >in
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques2-2" >mm
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques2-3" >pc
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques2-4" >pt
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q3" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q3">3</label></b> Which of the following is correct about Short Hex Code format of CSS colors?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques3-1" >This is a shorter form of the six-digit notation.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques3-2" >In this format, each digit is replicated to arrive at an equivalent six-digit value.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques3-3" >Each hexadecimal code will be preceded by a pound or hash sign '#'.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques3-4" >All of the above.
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q4" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q4">4</label></b> Which of the following is correct about Browser Safe Colors?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques4-1" >These are 216 colors which are supposed to be most safe and computer independent colors.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques4-2" >These colors vary from hexa code 000000 to FFFFFF.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques4-3" >These colors are safe to use because they ensure that all computers would display the colors correctly when running a 256 color palette.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques4-4" >All of the above.
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q5" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q5">5</label></b> Which of the following property is used to add or subtract space between the words of a sentence?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques5-1" >color
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques5-2" >direction
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques5-3" >letter-spacing
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques5-4" >word-spacing
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q6" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q6">6</label></b> Which of the following property is used to set the width of an image border?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques6-1" >border
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques6-2" >height
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques6-3" >width
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques6-4" >-moz-opacity
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q7" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q7">7</label></b> Which of the following property changes the color of bottom border?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques7-1" >:border-color
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques7-2" >:border-style
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques7-3" >:border-width
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques7-4" >:border-bottom-color
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q8" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q8">8</label></b> Which of the following property changes the width of top border?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques8-1" >:border-bottom-width
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques8-2" >:border-top-width
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques8-3" >:border-left-width
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques8-4" >:border-right-width
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q9" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q9">9</label></b> Which of the following property specifies a shorthand property for setting the margin properties in one declaration?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques9-1" >:margin
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques9-2" >:margin-bottom
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques9-3" >:margin-top
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques9-4" >:margin-left
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q10" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q10">10</label></b> Which of the following property specifies the left padding of an element?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques10-1" >padding-bottom
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques10-2" >padding-top
+                  </label>
+                </div> 
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques10-3" >padding-left
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques10-4" >padding-right
+                  </label>
+                </div> 
+                <br>
+              </div>
+            </form>
+          </div>
+          <div class="col-sm-6 col-md-8 col-md-offset-2">
+            <a id="subBtn" class="btn btn-primary btn-lg btn-block">Submit</a>
+          </div>
+        </div>
+        <br><br>
+      </section>
+    </div>
+
+    <footer>
+      <p>Copyright &copy; 2015 <a href="http://zorrofoxtech.com/">zorrofox technologies pvt. ltd.</a></p>
+    </footer>
+  </div>
+
+  <script src="js/jquery-1.10.1.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/css-set3-answer.js"></script>
+
+
+</body>
+</html>

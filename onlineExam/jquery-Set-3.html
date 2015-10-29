@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Online Exam</title>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/exam.css">
+  
+</head>
+<body>
+  <div id="wrapper">
+    <!--nav-->
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Online Examination</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="nav-link" href="myAccount.html">My Account</a></li>
+            <li><a class="nav-link" href="php/logout.php">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <section class="subjects" class="container">
+       <!--  <div class="row">
+          <div class="col-md-4 col-md-offset-1"><span class="label label-danger">Time: </span></div>
+        </div> -->
+        <div class="row">
+          <div id="php_set1_q1" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q1">1</label></b> .  Which of the following type of variable is visible only within a function where it is defined?
+
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques1-1" >global variable
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques1-2" >local variable
+
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques1-3" >Both of the above.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques1-4" >None of the above.
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q2" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q2">2.</label></b> Which of the following is correct about callbacks?
+
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques2-1" > A callback is a plain JavaScript function passed to some method as an argument or option.
+
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques2-2" > Some callbacks are just events, called to give the user a chance to react when a certain state is triggered.
+
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques2-3" > Both of the above.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques2-4" > None of the above.
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q3" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q3">3</label></b> . Which of the following jQuery method removes an attribute from each of the matched elements?
+
+
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques3-1" > deleteAttr( name )
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques3-2" >removeAttr( name )
+
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques3-3" >removeAttribute( name )
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques3-4" >None of the above.
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q4" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q4">4</label></b> Which built-in method returns the characters in a string beginning at the specified location?
+
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques4-1" >substr()
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques4-2" >getSubstring()
+
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques4-3" >slice()
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques4-4" >None of the above.
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q5" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q5">5</label></b> Which of the following jQuery method sets the text of an element?
+
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques5-1" >  text( val )
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb2" name="optionradios" value="Ques5-2" >setText( val )
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb2" name="optionradios" value="Ques5-3" >setContent( val )
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb2" name="optionradios" value="Ques5-4" >None of the above.
+                    </label>
+                  </div>
+
+                </div>
+              </form>
+            </div>
+
+            <div id="php_set1_q6" class="col-sm-6 col-md-10 col-md-offset-1">
+              <p class="lead page-header">
+                <b>Ques. <label id="q6">6</label></b> Which of the following jQuery method finds all the child nodes inside the matched elements (including text nodes), or the content document, if the element is an iframe?
+
+                A - 
+
+                B - 
+
+                C -
+
+                D - 
+              </p>
+              <form class="form" role="form">
+                <div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb1" name="optionradios" value="Ques6-1" > getChildren( selector )
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb2" name="optionradios" value="Ques6-2" >getContents( [selector])
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb2" name="optionradios" value="Ques6-3" > contents(selector)
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb2" name="optionradios" value="Ques6-4" >None of the above.
+                    </label>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div id="php_set1_q7" class="col-sm-6 col-md-10 col-md-offset-1">
+              <p class="lead page-header">
+                <b>Ques. <label id="q7">7</label></b> Which of the following jQuery method gets the style property of an element?
+
+              </p>
+              <form class="form" role="form">
+                <div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb1" name="optionradios" value="Ques7-1" > getClass( name )
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb2" name="optionradios" value="Ques7-2" > getStyle( name)
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb3" name="optionradios" value="Ques7-3" > css( name )
+
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb4" name="optionradios" value="Ques7-4" >None of the above.
+                    </label>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div id="php_set1_q8" class="col-sm-6 col-md-10 col-md-offset-1">
+              <p class="lead page-header">
+                <b>Ques. <label id="q8">8</label></b> Which of the following jQuery method returns the outer height (including the border) of an element?
+
+              </p>
+              <form class="form" role="form">
+                <div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb1" name="optionradios" value="Ques8-1" > getCSSHeight( )
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb2" name="optionradios" value="Ques8-2" >getHeight( )
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb2" name="optionradios" value="Ques8-3" >outerHeight( [margin] )
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb2" name="optionradios" value="Ques8-4" > None of the above.
+                    </label>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div id="php_set1_q9" class="col-sm-6 col-md-10 col-md-offset-1">
+              <p class="lead page-header">
+
+                <b>Ques. <label id="q9">9</label></b> WWhich of the following jQuery method can be used to attach a function to be executed whenever an AJAX request completes?
+              </p>
+
+              <form class="form" role="form">
+                <div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb1" name="optionradios" value="Ques9-1" > ajaxStart( callback )
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb2" name="optionradios" value="Ques9-2" >ajaxComplete( callback )
+
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb2" name="optionradios" value="Ques9-3" >ajaxSend( callback )
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb2" name="optionradios" value="Ques9-4" >ajaxStop(callback)
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+              <div id="php_set1_q10" class="col-sm-6 col-md-10 col-md-offset-1">
+                <p class="lead page-header">
+                  <b>Ques. <label id="q10">10</label></b> Which of the following jQuery method loads a JSON data using an HTTP GET request?
+                </p>
+                <form class="form" role="form">
+                  <div class="form-group">
+                    <div class="radio">
+                      <label>
+                        <input type="radio" id="rb1" name="optionradios" value="Ques10-1" > jQuery.get( url, [data], [callback], [type] )
+
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input type="radio" id="rb2" name="optionradios" value="Ques10-2" >jQuery.getJSON( url, [data], [callback] )
+                      </label>
+                    </div> 
+                    <div class="radio">
+                      <label>
+                        <input type="radio" id="rb2" name="optionradios" value="Ques10-3" >jQuery.getScript( url, [callback] )
+                      </label>
+                    </div> 
+                    <div class="radio">
+                      <label>
+                        <input type="radio" id="rb2" name="optionradios" value="Ques10-4" >jQuery.post( url, [data], [callback], [type] )
+                      </label>
+                    </div> 
+                    <br>
+                  </div>
+                </form>
+              </div>
+              <div class="col-sm-6 col-md-8 col-md-offset-2">
+                <a id="subBtn" class="btn btn-primary btn-lg btn-block">Submit</a>
+              </div>
+            </div>
+            <br><br>
+          </section>
+        </div>
+
+        <footer>
+          <p>Copyright &copy; 2015 <a href="http://zorrofoxtech.com/">zorrofox technologies pvt. ltd.</a></p>
+        </footer>
+      </div>
+
+      <script src="js/jquery-1.10.1.min.js"></script>
+      <!-- Latest compiled and minified JavaScript -->
+      <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/jquery-set3-answer.js"></script>
+
+
+    </body>
+    </html>

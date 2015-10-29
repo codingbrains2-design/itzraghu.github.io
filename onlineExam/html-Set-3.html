@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Online Exam</title>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/exam.css">
+  
+</head>
+<body>
+  <div id="wrapper">
+    <!--nav-->
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Online Examination</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="nav-link" href="myAccount.html">My Account</a></li>
+            <li><a class="nav-link" href="php/logout.php">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <section class="subjects" class="container">
+        <!-- <div class="row">
+          <div class="col-md-4 col-md-offset-1"><span class="label label-danger">Time: </span></div>
+        </div> -->
+        <div class="row">
+          <div id="php_set1_q1" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q1">1</label></b> What is a FTP program used for?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques1-1" >Transfer files to and from an Internet Server
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques1-2" >Designing a website
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques1-3" >Connecting to the internet
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques1-4" >None of above
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q2" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q2">2</label></b> Which of the following are commonly found on web pages?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques2-1" >nternet
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques2-2" >hyperlinks
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques2-3" >intranet
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques2-4" >all of the above
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q3" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q3">3</label></b> What is the correct syntax in HTML for creating a link on a webpage?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques3-1" >&lt;LINK SRC= "mcqsets.html"&gt;
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques3-2" >&lt;BODY LINK = "mcqsets.html"&gt;
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques3-3" >&lt;A SRC = "mcqsets.html"&gt;
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques3-4" >&lt;A HREF = "mcqsets.html"&gt;
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q4" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q4">4</label></b> Which of the following is an attribute of &lt;Table&gt; tag?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques4-1" >SRC
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques4-2" >LINK
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques4-3" >CELLPADDING
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques4-4" >BOLD
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q5" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q5">5</label></b> Output of XML document can be viewed in a
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques5-1" >Word Processor
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques5-2" >Web browser
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques5-3" >Notepad
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques5-4" >None of the above
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q6" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q6">6</label></b> What is the correct way of describing XML data?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques6-1" >XML uses a DTD to describe data
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques6-2" >XML uses a description node to describe data
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques6-3" >XML uses XSL to describe the data
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques6-4" >XML uses a validator to describe the data
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q7" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q7">7</label></b> Which statement is true?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques7-1" >An XML document can have one root element
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques7-2" >An XML document can have one child element
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques7-3" >XML elements have to be in lower case
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques7-4" >All of above
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q8" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q8">8</label></b> With regards to e-mail addresses:
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques8-1" >they must always contain an @ symbol
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques8-2" >they can never contain spaces
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques8-3" >they are case-insensitive
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques8-4" >all of the above
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q9" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q9">9</label></b> A homepage is __________
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques9-1" >an index of encyclopedia articles
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques9-2" >where all Internet data is stored
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques9-3"> required for access to the Internet
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques9-4" >the first page of a website
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q10" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q10">10</label></b> Which of the following is used to explore the Internet?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques10-1" >Browser
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques10-2" >Spreadsheet
+                  </label>
+                </div> 
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques10-3" >Clipboard
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques10-4" >Draw
+                  </label>
+                </div> 
+                <br>
+              </div>
+            </form>
+          </div>
+          <div class="col-sm-6 col-md-8 col-md-offset-2">
+            <a id="subBtn" class="btn btn-primary btn-lg btn-block">Submit</a>
+          </div>
+        </div>
+        <br><br>
+      </section>
+    </div>
+
+    <footer>
+      <p>Copyright &copy; 2015 <a href="http://zorrofoxtech.com/">zorrofox technologies pvt. ltd.</a></p>
+    </footer>
+  </div>
+
+  <script src="js/jquery-1.10.1.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/html-set3-answer.js"></script>
+
+
+</body>
+</html>

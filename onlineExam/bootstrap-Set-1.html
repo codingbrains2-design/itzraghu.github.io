@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Online Exam</title>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/exam.css">
+  
+</head>
+<body>
+  <div id="wrapper">
+    <!--nav-->
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Online Examination</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="nav-link" href="myAccount.html">My Account</a></li>
+            <li><a class="nav-link" href="php/logout.php">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <section class="subjects" class="container">
+       <!--  <div class="row">
+          <div class="col-md-4 col-md-offset-1"><span class="label label-danger">Time: </span></div>
+        </div> -->
+        <div class="row">
+          <div id="php_set1_q1" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q1">1</label></b> Which of the following is correct about Bootstrap Grid System?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques1-1" > Rows must be placed within a .container class for proper alignment and padding.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques1-2" >Use rows to create horizontal groups of columns.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques1-3" >Content should be placed within the columns, and only columns may be the immediate children of rows.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques1-4" >All of the above
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q2" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q2">2</label></b> Which of the following class styles a table with borders surrounding every element and rounded corners around the entire table?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques2-1" >.table
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques2-2" >.table-striped
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques2-3" >.table-bordered
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques2-4" >.table-hover
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q3" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q3">3</label></b> Which of the following bootstrap style of button creates a default/ standard button?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques3-1" >.btn
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques3-2" >.btn-primary
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques3-3" >.btn-success
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques3-4" >.btn-info
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q4" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q4">4</label></b> Which of the following bootstrap style of button makes the button size extra small?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques4-1" >.btn-lg
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques4-2" >.btn-sm
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques4-3" >.btn-xs
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques4-4" >btn-block
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q5" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q5">5</label></b> Which of the following bootstrap styles are used to create a justified tabs navigation?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques5-1" >.nav, .nav-tabs
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques5-2" >.nav, .nav-pills
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques5-3" >.nav, .nav-pills, .nav-stacked
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques5-4" >.nav, .nav-tabs, .nav-justified
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q6" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q6">6</label></b> Which of the following bootstrap style can be used to create a pager on a page?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques6-1" >.pager
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques6-2" >.pagination
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques6-3" >.nav
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques6-4" >None of these
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q7" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q7">7</label></b> Which of the following bootstrap styles can be used to create progress bars with different styles?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques7-1" >.progress-bar-success, .progress-bar-info, .progress-bar-warning, .progress-bar-danger
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques7-2" >.success, .info, .warning, .danger
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques7-3" >.progress, .progress-bar
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques7-4" >All of above
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q8" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q8">8</label></b> Which of the following is correct about bootstrap wells?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques8-1" >You can change the size of well using the optional classes such as, well-lg or well-sm.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques8-2" >well-lg or well-sm classes are used in conjunction with .well class.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques8-3" >Both of the above.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques8-4" >None of the above.
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q9" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q9">9</label></b> Which of the following is correct about data-placement Data attribute of Tooltip Plugin?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques9-1" >Applies a CSS fade transition to the tooltip.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques9-2" >Inserts HTML into the tooltip. If false, jQuery's text method will be used to insert content into the dom.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques9-3" >Specifies how to position the tooltip (i.e., top|bottom|left|right|auto).
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques9-4" >Delegates to the specified targets.
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div id="php_set1_q10" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q10">10</label></b> Which of the following is correct about data-title Data attribute of popover Plugin?
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques10-1" >Sets the default title value if the title attribute isn't present.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques10-2" >Defines how the popover is triggered.
+                  </label>
+                </div> 
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb3" name="optionradios" value="Ques10-3" >Defines default content value if data-content attribute isn't present
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb4" name="optionradios" value="Ques10-4" >Delays showing and hiding the popover in ms.
+                  </label>
+                </div> 
+                <br>
+              </div>
+            </form>
+          </div>
+          <div class="col-sm-6 col-md-8 col-md-offset-2">
+            <a id="subBtn" class="btn btn-primary btn-lg btn-block">Submit</a>
+          </div>
+        </div>
+        <br><br>
+      </section>
+    </div>
+
+    <footer>
+      <p>Copyright &copy; 2015 <a href="http://zorrofoxtech.com/">zorrofox technologies pvt. ltd.</a></p>
+    </footer>
+  </div>
+
+  <script src="js/jquery-1.10.1.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap-set1-answer.js"></script>
+
+
+</body>
+</html>

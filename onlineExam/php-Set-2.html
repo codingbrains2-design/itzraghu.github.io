@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Online Exam</title>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/exam.css">
+  
+</head>
+<body>
+  <div id="wrapper">
+    <!--nav-->
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Online Examination</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="nav-link" href="myAccount.html">My Account</a></li>
+            <li><a class="nav-link" href="php/logout.php">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <section class="subjects" class="container">
+        <!-- <div class="row">
+          <div class="col-md-4 col-md-offset-1"><span class="label label-danger">Time: </span></div>
+        </div> -->
+        <div class="row">
+          <div id="php_set1_q1" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q1">1</label></b> . . . . . . converts the keys of an array into values and the values into keys.
+            </p>
+            <form class="form" role="form">
+              <div class="form-group">
+                <div class="radio">
+                  <label>
+                    <input type="radio" id="rb1" name="optionradios" value="Ques1-1" >array_flips()</label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb2" name="optionradios" value="Ques1-2" >array_transpose()
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb3" name="optionradios" value="Ques1-3" >array_trans
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb4" name="optionradios" value="Ques1-4" >array_flip()
+                    </label>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div id="php_set1_q2" class="col-sm-6 col-md-10 col-md-offset-1">
+              <p class="lead page-header">
+                <b>Ques. <label id="q2">2</label></b>  usleep(1000000) function pauses PHP for
+              </p>
+              <form class="form" role="form">
+                <div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb1" name="optionradios" value="Ques2-1" > 1 second
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb2" name="optionradios" value="Ques2-2" > 1 microsecond
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb3" name="optionradios" value="Ques2-3" >10 second
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb4" name="optionradios" value="Ques2-4" >100 microsecond
+                    </label>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div id="php_set1_q3" class="col-sm-6 col-md-10 col-md-offset-1">
+              <p class="lead page-header">
+                <b>Ques. <label id="q3">3</label></b>$array = array(0, 1, 2);
+                $array = array_pad($array, -6, ‘NEW’);
+                Output will be:
+
+              </p>
+              <form class="form" role="form">
+                <div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb1" name="optionradios" value="Ques3-1" > Array ( [1] => NEW [2] => NEW [3] => NEW [4] => 0 [5] => 1 [6] => 2 )
+
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb2" name="optionradios" value="Ques3-2" >Array ( [-1] => NEW [-2] => NEW [-3] => NEW [-4] => 0 [-5] => 1 [-6] => 2 )
+
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb3" name="optionradios" value="Ques3-3" >
+                      Array ( [0] => NEW [-1] => NEW [-2] => NEW [-3] => 0 [-4] => 1 [-5] => 2 )
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb4" name="optionradios" value="Ques3-4" >
+                      Array ( [0] => NEW [1] => NEW [2] => NEW [3] => 0 [4] => 1 [5] => 2 ) 
+
+                    </label>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div id="php_set1_q4" class="col-sm-6 col-md-10 col-md-offset-1">
+              <p class="lead page-header">
+                <b>Ques. <label id="q4">4</label></b> phpinfo() will display about
+              </p>
+              <form class="form" role="form">
+                <div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb1" name="optionradios" value="Ques4-1" >Server information
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb2" name="optionradios" value="Ques4-2" >DataTypes
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb3" name="optionradios" value="Ques4-3" >Variables
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb4" name="optionradios" value="Ques4-4" >None Of Above
+                    </label>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div id="php_set1_q5" class="col-sm-6 col-md-10 col-md-offset-1">
+              <p class="lead page-header">
+                <b>Ques. <label id="q5">5</label></b> . . . . . returns a new DateTime object.
+              </p>
+              <form class="form" role="form">
+                <div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb1" name="optionradios" value="Ques5-1" >  getdate()
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb2" name="optionradios" value="Ques5-2" >date_create()
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb3" name="optionradios" value="Ques5-3" >date_sunrise()
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb4" name="optionradios" value="Ques5-4" >date()
+                    </label>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div id="php_set1_q6" class="col-sm-6 col-md-10 col-md-offset-1">
+              <p class="lead page-header">
+                <b>Ques. <label id="q6">6</label></b> It is always necessary to use parentheses with the print function.
+              </p>
+              <form class="form" role="form">
+                <div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb1" name="optionradios" value="Ques6-1" > True
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb2" name="optionradios" value="Ques6-2" >False
+                    </label>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div id="php_set1_q7" class="col-sm-6 col-md-10 col-md-offset-1">
+              <p class="lead page-header">
+                <b>Ques. <label id="q7">7</label></b>$Var = substr("abcdef", -4, 1); &nbsp; This statement will return 
+
+              </p>
+              <form class="form" role="form">
+                <div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb1" name="optionradios" value="Ques7-1" >  returns "f"
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb2" name="optionradios" value="Ques7-2" >returns "d"
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb3" name="optionradios" value="Ques7-3" >returns "c"
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb4" name="optionradios" value="Ques7-4" >returns "cd"
+                    </label>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div id="php_set1_q8" class="col-sm-6 col-md-10 col-md-offset-1">
+              <p class="lead page-header">
+                <b>Ques. <label id="q8">8</label></b> Returning values from functions may include
+              </p>
+              <form class="form" role="form">
+                <div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb1" name="optionradios" value="Ques8-1" > Arrays
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb2" name="optionradios" value="Ques8-2" >Objects
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb2" name="optionradios" value="Ques8-3" >Both A &amp; B
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb2" name="optionradios" value="Ques8-4" >None of Above
+                    </label>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div id="php_set1_q9" class="col-sm-6 col-md-10 col-md-offset-1">
+              <p class="lead page-header">
+                <b>Ques. <label id="q9">9</label></b> The arguments in a function are evaluated from 
+              </p>
+              <form class="form" role="form">
+                <div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb1" name="optionradios" value="Ques9-1" > Left to Right
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb2" name="optionradios" value="Ques9-2" >Right to Left
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb2" name="optionradios" value="Ques9-3" >sometimes left to right and sometimes right to left
+                    </label>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div id="php_set1_q10" class="col-sm-6 col-md-10 col-md-offset-1">
+              <p class="lead page-header">
+                <b>Ques. <label id="q10">10</label></b> strlen() returns the length of the string on success and . . . . if the string is empty.
+              </p>
+              <form class="form" role="form">
+                <div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb1" name="optionradios" value="Ques10-1" >-1
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb2" name="optionradios" value="Ques10-2" >NULL
+                    </label>
+                  </div> 
+                  <div class="radio">
+                    <label>
+                      <input type="radio" id="rb2" name="optionradios" value="Ques10-3" >Garbage value
+                    </label>
+                  </div> <div class="radio">
+                  <label>
+                    <input type="radio" id="rb2" name="optionradios" value="Ques10-4" >0
+                  </label>
+                </div> 
+                <br>
+              </div>
+            </form>
+          </div>
+          <div class="col-sm-6 col-md-8 col-md-offset-2">
+            <a id="subBtn" class="btn btn-primary btn-lg btn-block">Submit</a>
+          </div>
+        </div>
+        <br><br>
+      </section>
+    </div>
+
+    <footer>
+      <p>Copyright &copy; 2015 <a href="http://zorrofoxtech.com/">zorrofox technologies pvt. ltd.</a></p>
+    </footer>
+  </div>
+
+  <script src="js/jquery-1.10.1.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/php-set2-answer.js"></script>
+
+
+</body>
+</html>

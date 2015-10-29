@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Online Exam</title>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-editable.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/exam.css">
+  
+</head>
+<body>
+  <div id="wrapper">
+    <!--nav-->
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Online Examination</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="nav-link" href="user-home.html">Home</a></li>
+            <li><a class="nav-link" href="myAccount.html">My Account</a></li>
+            <li><a class="nav-link" href="php/logout.php">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+         <div class="panel-group" id="accordion1">
+           <div class="panel panel-info">
+             <div class="panel-heading">
+               <div class="panel-title">
+                 <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion1">
+                   Change Password
+                 </a>
+               </div>
+               <div id="collapseOne" class="panel-collapse collapse in">
+                 <div class="panel-body">
+                   <form id="changePassForm" class="form-horizontal" role="form">
+                    <div class="form-group">
+                      <div class="col-sm-12">
+                        <input type="password" id="oldPassword" name="" placeholder="Old Password" class="col-md-12 form-control input-lg ">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-12">
+                        <input type="password" id="newPassword" name="" placeholder="New Password" class="form-control input-lg">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-12">
+                        <input type="password" id="confirmPassword" name="" placeholder="Confirm Password" class="form-control input-lg">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-12">
+                        <button type="button" id="changePassBtn" class="btn btn-primary">Change Password</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-8">
+        <div class="panel-group" id="accordion2">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                  Edit Profile
+                </a>
+              </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse in">
+              <div class="panel-body">
+                <form class="form-horizontal" role="form">
+                  <div class="form-group">
+                    <div class="col-sm-3">
+                      <label for="">Username: </label>
+                    </div>
+                    <div class="col-sm-9">
+                      <a id="username">&nbsp;</a>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-3">
+                      <label for="">Full Name: </label>
+                    </div>
+                    <div class="col-sm-9">
+                      <a href="#" id="name" data-type="text" data-placement="left" data-title="Enter Name">&nbsp;</a>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-3">
+                      <label for="">Email </label>
+                    </div>
+                    <div class="col-sm-9">
+                      <a href="#" id="email" data-type="text" data-placement="right" data-title="Enter email">&nbsp;</a>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-3"> 
+                      <label for="">Mobile </label>
+                    </div>
+                    <div class="col-sm-9">
+                      <a href="#" id="mobile" data-type="text" data-placement="right" data-title="Enter Mobile Number">&nbsp;</a>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-3">
+                    </div>
+                    <div class="col-sm-9">
+                      <a id="editProfileBtn" class="btn btn-primary">Update</a>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                  View Results
+                </a>
+              </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse">
+              <div class="panel-body">
+                <form id="resultForm" class="form-horizontal" role="form">
+                  <div class="form-group">
+                    <div class="col-sm-4 text-center">
+                      <select id="subject" class="form-control">
+                        <option value="php">PHP</option>
+                        <option value="java">JAVA</option>
+                        <option value="jquery">JQUERY</option>
+                        <option value="bootstrap">BOOTSTRAP</option>
+                        <option value="css">CSS</option>
+                        <option value="html">HTML</option>
+                        <option value="database">DATABASE</option>
+                        <option value="c">C</option>
+                      </select>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                      <select id="set_no" class="form-control">
+                        <option value="1">Set-1</option>
+                        <option value="2">Set-2</option>
+                        <option value="3">Set-3</option>
+                      </select>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                     <button id="searchBtn" type="submit" class="btn btn-primary">Show Result</button>
+                   </div>
+                 </div>
+               </form>
+               <table id="resultTable" class="table table-bordered table-hover">
+                 <form class="form" role="form">
+                  <div class="form-group">
+                    <thead>
+                      <tr>
+                        <td ><label>Id</label></td>
+                        <td ><label>Subject</label></td>
+                        <td ><label>Set No.</label></td>
+                        <td ><label>Obtained Marks</label></td>
+                        <td ><label>Total Marks</label></td>
+                      </tr>
+                    </thead> 
+                    <tbody>  
+                    </tbody>  
+                  </div>
+                </form>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>Copyright &copy; 2015 <a href="http://zorrofoxtech.com/">zorrofox technologies pvt. ltd.</a></p>
+</footer>
+
+<script src="js/jquery-1.10.1.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-editable.min.js"></script>
+<script src="js/change-password.js"></script>
+<script src="js/search-result.js"></script>
+<script src="js/user-details.js"></script>
+<script src="js/edit-profile.js"></script>
+
+</body>
+</html>

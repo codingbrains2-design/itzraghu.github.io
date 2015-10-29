@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Online Exam</title>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/exam.css">
+  
+</head>
+<body>
+  <div id="wrapper">
+    <!--nav-->
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Online Examination</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="nav-link" href="myAccount.html">My Account</a></li>
+            <li><a class="nav-link" href="php/logout.php">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <section class="subjects" class="container">
+        <!-- <div class="row">
+          <div class="col-md-4 col-md-offset-1"><span class="label label-danger">Time: </span></div>
+        </div> -->
+        <div class="row">
+          <div id="php_set1_q1" class="col-sm-6 col-md-10 col-md-offset-1">
+            <p class="lead page-header">
+              <b>Ques. <label id="q1">1</label></b> What is the output of the below code snippet?
+
+              <pre>
+                main() 
+                { 
+                int a = 1; 
+                float b = 1.3; 
+                double c;
+
+                c = a + b; 
+                printf("%.2lf", c);
+              }
+            </pre>
+          </p>
+          <form class="form" role="form">
+            <div class="form-group">
+              <div class="radio">
+                <label>
+                  <input type="radio" id="rb1" name="optionradios" value="Ques1-1" >2.30
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" id="rb2" name="optionradios" value="Ques1-2" > 2.3
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" id="rb3" name="optionradios" value="Ques1-3" >Compile error
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" id="rb4" name="optionradios" value="Ques1-4" > 2.0
+                </label>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div id="php_set1_q2" class="col-sm-6 col-md-10 col-md-offset-1">
+          <p class="lead page-header">
+            <b>Ques. <label id="q2">2</label></b> WWhat is the output of the following program?
+
+            <pre>
+              main()
+              { 
+              int a[] = {1,2}, *p = a;
+
+              printf("%d", p[1]); 
+            }
+          </pre>
+        </p>
+        <form class="form" role="form">
+          <div class="form-group">
+            <div class="radio">
+              <label>
+                <input type="radio" id="rb1" name="optionradios" value="Ques2-1" > 1
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" id="rb2" name="optionradios" value="Ques2-2" >2
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" id="rb2" name="optionradios" value="Ques2-2" >Compile error
+
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" id="rb2" name="optionradios" value="Ques2-2" >Runtime error
+              </label>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div id="php_set1_q3" class="col-sm-6 col-md-10 col-md-offset-1">
+        <p class="lead page-header">
+          <b>Ques. <label id="q3">3</label></b>  Following is the invalid inclusion of a file to the current program. Identify it.
+        </p>
+        <form class="form" role="form">
+          <div class="form-group">
+            <div class="radio">
+              <label>
+                <input type="radio" id="rb1" name="optionradios" value="Ques3-1" >  #include &lt;file&gt;
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" id="rb2" name="optionradios" value="Ques3-2" > #include “file”
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" id="rb3" name="optionradios" value="Ques3-3" > #include &lt; file
+
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" id="rb4" name="optionradios" value="Ques3-4" >All of the above are invalid..
+              </label>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div id="php_set1_q4" class="col-sm-6 col-md-10 col-md-offset-1">
+        <p class="lead page-header">
+          <b>Ques. <label id="q4">4</label></b> What is the output of the following statement?
+
+          <pre>
+            main()
+            {
+            printf("\\ri\\ng \\the \\bells");
+          }
+        </pre>
+      </p>
+      <form class="form" role="form">
+        <div class="form-group">
+          <div class="radio">
+            <label>
+              <input type="radio" id="rb1" name="optionradios" value="Ques4-1" >\ri\ng \the \bells
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" id="rb2" name="optionradios" value="Ques4-2" >i<br>
+
+              g heells
+
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" id="rb3" name="optionradios" value="Ques4-3" >i<br>
+
+              he \bells
+
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" id="rb4" name="optionradios" value="Ques4-4" >None of the above
+            </label>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div id="php_set1_q5" class="col-sm-6 col-md-10 col-md-offset-1">
+      <p class="lead page-header">
+        <b>Ques. <label id="q5">5</label></b> What is the output of the following program?
+
+        <pre>
+          main()
+          {
+          char *s = "Fine";
+          *s = 'N';
+
+          printf("%s", s);
+        }
+      </pre>
+    </p>
+    <form class="form" role="form">
+      <div class="form-group">
+        <div class="radio">
+          <label>
+            <input type="radio" id="rb1" name="optionradios" value="Ques5-1" > Fine
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" id="rb2" name="optionradios" value="Ques5-2" >Nine
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" id="rb2" name="optionradios" value="Ques5-2" >Compile error
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" id="rb2" name="optionradios" value="Ques5-2" >Runtime error
+            </label>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div id="php_set1_q6" class="col-sm-6 col-md-10 col-md-offset-1">
+      <p class="lead page-header">
+        <b>Ques. <label id="q6">6</label></b>  Choose the correct function which can return a reminder by dividing -10.0/3.0?
+      </p>
+      <form class="form" role="form">
+        <div class="form-group">
+          <div class="radio">
+            <label>
+              <input type="radio" id="rb1" name="optionradios" value="Ques6-1" >rem = mod(-10.0, 3.0);
+
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" id="rb2" name="optionradios" value="Ques6-2" >rem = fmod(-10.0, 3.0);
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" id="rb3" name="optionradios" value="Ques6-3" >rem = modf(-10.0, 3.0);
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" id="rb4" name="optionradios" value="Ques6-4" >Division of floating point values can’t return reminder
+            </label>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div id="php_set1_q7" class="col-sm-6 col-md-10 col-md-offset-1">
+      <p class="lead page-header">
+        <b>Ques. <label id="q7">7</label></b>  A bitwise operator “&” can turn-off a particular bit into a number.
+      </p>
+      <form class="form" role="form">
+        <div class="form-group">
+          <div class="radio">
+            <label>
+              <input type="radio" id="rb1" name="optionradios" value="Ques7-1" >Yes
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" id="rb2" name="optionradios" value="Ques7-2" >&amp;&amp;
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" id="rb3" name="optionradios" value="Ques7-3" >*
+
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" id="rb4" name="optionradios" value="Ques7-4" >||
+            </label>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div id="php_set1_q8" class="col-sm-6 col-md-10 col-md-offset-1">
+      <p class="lead page-header">
+        <b>Ques. <label id="q8">8</label></b> What is x in the following program?
+
+        <pre>
+          int main ()
+          {
+          typedef char (*(*arrfptr[3])())[10];
+          arrfptr x
+          return 0;
+        }
+      </pre>
+
+    </p>
+    <form class="form" role="form">
+      <div class="form-group">
+        <div class="radio">
+          <label>
+            <input type="radio" id="rb1" name="optionradios" value="Ques8-1" >x is a character pointer
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" id="rb2" name="optionradios" value="Ques8-2" >x is an array of pointer
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" id="rb3" name="optionradios" value="Ques8-3" >x is an array of three function pointers
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" id="rb4" name="optionradios" value="Ques8-4" >Wrong declaration
+
+          </label>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div id="php_set1_q9" class="col-sm-6 col-md-10 col-md-offset-1">
+    <p class="lead page-header">
+      <b>Ques. <label id="q9">9</label></b>  What will be the resultant of the given below program?
+      <pre>
+        #include&lt;stdio.h&gt;
+        #include&lt;stdarg.h&gt;
+
+        Void fun(char *msg, ...);
+        int main ()
+        {
+        fun("IndiaMAX", 1, 4, 7, 11, 0);
+        return 0;
+      }
+      void fun(char *msg, ...)  
+      {
+      va_list ptr;{
+      int num;
+      va_start(ptr, msg);
+      num = va_arg(ptr, int);    
+      num = va_arg(ptr, int);
+      printf("%d", num);
+    }
+  </pre>
+</p>
+<form class="form" role="form">
+  <div class="form-group">
+    <div class="radio">
+      <label>
+        <input type="radio" id="rb1" name="optionradios" value="Ques9-1" >IndiaMAX 1, 7, 11, 0
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" id="rb2" name="optionradios" value="Ques9-2" >IndiaMAX 1, 7
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" id="rb3" name="optionradios" value="Ques9-3" >Only 4
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" id="rb4" name="optionradios" value="Ques9-4" >1, 7, 11, 0
+      </label>
+    </div>
+  </div>
+</form>
+</div>
+
+<div id="php_set1_q10" class="col-sm-6 col-md-10 col-md-offset-1">
+  <p class="lead page-header">
+    <b>Ques. <label id="q10">10</label></b>   The library function strrchr() finds the first occurrence of a substring in another string.
+  </p>
+  <form class="form" role="form">
+    <div class="form-group">
+      <div class="radio">
+        <label>
+          <input type="radio" id="rb1" name="optionradios" value="Ques10-1" >Yes
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" id="rb2" name="optionradios" value="Ques10-2" >Strstr()
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" id="rb3" name="optionradios" value="Ques10-3" >strchr()
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" id="rb4" name="optionradios" value="Ques10-4" > strnset()
+        </label>
+      </div>
+      <br>
+    </div>
+  </form>
+</div>
+<div class="col-sm-6 col-md-8 col-md-offset-2">
+  <a id="subBtn" class="btn btn-primary btn-lg btn-block">Submit</a>
+</div>
+</div>
+<br><br>
+</section>
+</div>
+
+<footer>
+  <p>Copyright &copy; 2015 <a href="http://zorrofoxtech.com/">zorrofox technologies pvt. ltd.</a></p>
+</footer>
+</div>
+
+<script src="js/jquery-1.10.1.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/c-set2-answer.js"></script>
+
+
+</body>
+</html>
