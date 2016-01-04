@@ -1,0 +1,160 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 60px;
+}
+
+
+.navbar{
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+.navbar .nav li a
+{
+  color: #fff;
+}
+
+.navbar .navbar-brand
+{
+  color: #fff;
+  font-size: 1.8em;
+}
+.img-center
+{
+  margin: 0 auto;
+}
+
+/*=======================================
+=            admin/home.html            =
+=======================================*/
+#home .thumbnail
+{
+  margin-top: 130px;
+  border:2px solid #333333;
+}
+
+@media(max-width: 768px){
+  #home .thumbnail
+  {
+    margin-top: 0px;
+    border:2px solid #333333;
+  }
+}
+
+
+/*=====================================
+=            features.html            =
+=====================================*/
+#features .thumbnail
+{
+  margin-top: 100px;
+}
+
+@media(max-width: 768px){
+
+  #features .thumbnail
+  {
+    margin-top: 0px;
+  } 
+}
+/*==================================
+=            login.html            =
+==================================*/
+#login .col-md-4
+{
+  border: 2px solid gray;
+  padding: 50px;
+  margin-top: 40px;
+}
+
+@media(max-width: 768px){
+  #login .col-md-4{
+    border: 0px;
+    padding: 50px;
+    margin-top: 0px;
+  }
+  #login h1{
+    font-size: 2em;
+  }
+}
+
+/*===============================================
+=            voter-registration.html            =
+===============================================*/
+#voter_register_section .col-md-6
+{
+  border: 2px solid gray;
+  padding: 50px;
+}
+
+@media(max-width: 768px){
+  #voter_register_section .col-md-6{
+    border: 0px;
+    padding: 50px;
+  }
+  #voter_register_section h1{
+    font-size: 2em;
+  }
+}
+
+/*=================================================
+=            nominee-registration.html            =
+=================================================*/
+#nominee_register_section .col-md-6
+{
+  border: 2px solid gray;
+  padding: 50px;
+}
+
+@media(max-width: 768px){
+  #nominee_register_section .col-md-6{
+    border: 0px;
+    padding: 50px;
+  }
+  #nominee_register_section h1{
+    font-size: 2em;
+  }
+}
+
+
+
+
+
+/*==================================
+=            vault.html            =
+==================================*/
+#vault .col-md-6{
+  border: 2px solid gray;
+  padding: 30px;
+}
+
+@media(max-width: 768px){
+  #vault .col-md-6{
+    border: 0px;
+    padding: 30px;
+  }
+}
+
+/*======================================
+=            FOOTER SECTION            =
+======================================*/
+footer {
+  text-align: center;
+  color:#fff;
+  background-color: #044F67;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  line-height: 3.5em;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}

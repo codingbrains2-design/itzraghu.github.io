@@ -1,0 +1,1 @@
+[02-Jan-2016 02:07:08 America/New_York] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/zorricfd/public_html/employee/php/app-registration.php on line 16

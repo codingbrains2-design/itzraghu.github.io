@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Employee Management System</title>
+  <!-- Sets initial viewport load and disables zooming  -->
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/ems.css">
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+
+      <div id="wrapper">
+        <!--nav-->
+        <nav class="navbar navbar-inverse" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">Employee Management System</a>
+            </div>
+            <div class="collapse navbar-collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a class="nav-link" href="home.html"><i class="fa fa-home"></i> Home</a></li>
+                <li><a class="nav-link" href="holiday.html"><i class="fa fa-home"></i> Holidays</a></li>
+                <li><a class="nav-link" href="php/logout.php"><i class="fa fa-power-off"></i> Logout</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="container">
+          <section>
+            <div class="row">
+              <div class="col-md-8">
+                <div class="example">
+                  <div class="panel panel-danger">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">2015 Indian Holidays</h3>
+                    </div>
+                    <div class="panel-body">
+                      <div class="table-responsive">
+                        <table class="table table-hover table-striped">
+                          <tr>
+                            <td><b>Date</b></td>
+                            <td><b>Holiday</b></td>
+                            <td><b>Day</b></td>
+                            <td><b>Type</b></td>
+                          </tr>
+                          <tr>
+                            <td>January 1, 2015</td>
+                            <td>New Year's Day</td>
+                            <td>Thursday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>January 4, 2015</td>
+                            <td>Milad-Un-Nabi or Id-E-Milad (Birthday of Prophet Mohammad) (G)</td>
+                            <td>Sunday</td>
+                            <td>Gazetted</td>
+                          </tr>
+                          <tr>
+                            <td>January 14, 2015</td>
+                            <td>Makar Sankranti</td>
+                            <td>Wednesday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>January 15, 2015</td>
+                            <td>Pongal</td>
+                            <td>Thursday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>January 24, 2015</td>
+                            <td>Basant Panchami/Sri Panchami</td>
+                            <td>Saturday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>January 26, 2015</td>
+                            <td>Republic Day</td>
+                            <td>Monday</td>
+                            <td>Gazetted</td>
+                          </tr>
+                          <tr>
+                            <td>February 3, 2015</td>
+                            <td>Guru Ravidas's Birthday</td>
+                            <td>Tuesday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>February 14, 2015</td>
+                            <td>Swami Dayananda Saraswati Jayanti</td>
+                            <td>Saturday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>February 17, 2015</td>
+                            <td>Maha Shivaratri</td>
+                            <td>Tuesday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>February 19, 2015</td>
+                            <td>Shivaji Jayanti</td>
+                            <td>Thursday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>March 5, 2015</td>
+                            <td>Holika Dahan</td>
+                            <td>Thursday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>March 6, 2015</td>
+                            <td>Holi</td>
+                            <td>Friday</td>
+                            <td>Gazetted</td>
+                          </tr>
+                          <tr>
+                            <td>March 21, 2015</td>
+                            <td>Chaitra Suldadi/Gudi Padava/Ugadi/Cheti Chand</td>
+                            <td>Saturday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>March 21, 2015</td>
+                            <td>Ram Navami</td>
+                            <td>Saturday</td>
+                            <td>Gazetted</td>
+                          </tr>
+                          <tr>
+                            <td>April 2, 2015</td>
+                            <td>Mahavir Jayanti</td>
+                            <td>Thursday</td>
+                            <td>Gazetted</td>
+                          </tr>
+                          <tr>
+                            <td>April 3, 2015</td>
+                            <td>Good Friday</td>
+                            <td>Friday</td>
+                            <td>Gazetted</td>
+                          </tr>
+                          <tr>
+                            <td>April 5, 2015</td>
+                            <td>Easter Sunday</td>
+                            <td>Sunday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>April 14, 2015</td>
+                            <td>Vaisakhi/Vishu/Masadi</td>
+                            <td>Tuesday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>April 15, 2015</td>
+                            <td>Vaisakhadi(Bengal)/Bahag Bihu (Assam)</td>
+                            <td>Wednesday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>May 3, 2015</td>
+                            <td>Guru Rabindranath's birthday</td>
+                            <td>Sunday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>May 4, 2015</td>
+                            <td>Buddha Purnima</td>
+                            <td>Monday</td>
+                            <td>Gazetted</td>
+                          </tr>
+                          <tr>
+                            <td>May 9, 2015</td>
+                            <td>Guru Rabindranath's birthday</td>
+                            <td>Saturday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>July 17, 2015</td>
+                            <td>Jamat-Ul-Vida</td>
+                            <td>Friday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>July 17, 2015</td>
+                            <td>Rath Yatra</td>
+                            <td>Saturday</td>
+                            <td>Gazetted</td>
+                          </tr>
+                          <tr>
+                            <td>August 15, 2015</td>
+                            <td>Independence day</td>
+                            <td>Saturday</td>
+                            <td>Gazetted</td>
+                          </tr>
+                          <tr>
+                            <td>August 18, 2015</td>
+                            <td>Parsi New Year's day/Nauroz</td>
+                            <td>Tuesday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>August 28, 2015</td>
+                            <td>Onam</td>
+                            <td>Friday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>August 29, 2015</td>
+                            <td>Raksha Bandhan/Rakhi</td>
+                            <td>Saturday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>September 5, 2015</td>
+                            <td>Janmashtami</td>
+                            <td>Saturday</td>
+                            <td>Gazetted</td>
+                          </tr>
+                          <tr>
+                            <td>September 17, 2015</td>
+                            <td>Vinayaka Chaturthi/Ganesh Chaturthi</td>
+                            <td>Thursday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>September 25, 2015</td>
+                            <td>Id-ul-Zuha(Bakrid)</td>
+                            <td>Friday</td>
+                            <td>Gazetted</td>
+                          </tr>
+                          <tr>
+                            <td>October 2, 2015</td>
+                            <td>Mahatma Gandhi's Birthday</td>
+                            <td>Friday</td>
+                            <td>Gazetted</td>
+                          </tr>
+                          <tr>
+                            <td>October 20, 2015</td>
+                            <td>Dussehra (Maha Saptami)</td>
+                            <td>Tuesday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>October 21, 2015</td>
+                            <td>Dussehra (Maha Ashtami)</td>
+                            <td>Wednesday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>October 22, 2015</td>
+                            <td>Dussehra</td>
+                            <td>Thursday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>October 24, 2015</td>
+                            <td>Muharram</td>
+                            <td>Saturday</td>
+                            <td>Gazetted</td>
+                          </tr>
+                          <tr>
+                            <td>October 27, 2015</td>
+                            <td>Maharishi Valmiki's Birthday</td>
+                            <td>Tuesday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>October 30, 2015</td>
+                            <td>Karaka Chaturthi (Karva Chouth)</td>
+                            <td>Friday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>November 10, 2015</td>
+                            <td>Deepavali (South India)/Naraka Chaturdasi</td>
+                            <td>Tuesday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>November 11, 2015</td>
+                            <td>Diwali (Deepavali)</td>
+                            <td>Wednesday</td>
+                            <td>Gazetted</td>
+                          </tr>
+                          <tr>
+                            <td>November 12, 2015</td>
+                            <td>Govardhan Puja</td>
+                            <td>Thursday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>November 13, 2015</td>
+                            <td>Bhai Duj</td>
+                            <td>Friday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>November 17, 2015</td>
+                            <td>Pratihar Sashthi/Surya Sashthi (Chhat Puja)</td>
+                            <td>Tuesday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>November 24, 2015</td>
+                            <td>Guru Teg Bahadur's Martyrdom Day</td>
+                            <td>Tuesday</td>
+                            <td>Restricted</td>
+                          </tr>
+                          <tr>
+                            <td>November 25, 2015</td>
+                            <td>Guru Nanak's Birthday</td>
+                            <td>Wednesday</td>
+                            <td>Gazetted</td>
+                          </tr>
+                          <tr>
+                            <td>December 24, 2015</td>
+                            <td>Milad-Un-Nabi</td>
+                            <td>Thursday</td>
+                            <td>Gazetted</td>
+                          </tr>
+                          <tr>
+                            <td>December 25, 2015</td>
+                            <td>Christmas Day</td>
+                            <td>Friday</td>
+                            <td>Gazetted</td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="panel-group" id="accordion1">
+                  <div class="panel panel-primary">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <i class="fa fa-key"></i>
+                        <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion1">
+                         Change Password
+                       </a>  
+                     </h4>
+                   </div>
+                   <div id="collapseOne" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                      <form id="change-pass-form" class="form-horizontal" role="form">
+                        <div class="form-group">
+                          <div class="col-sm-12">
+                            <input type="password" id="oldPassword" placeholder="Old Password" class="form-control">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-sm-12">
+                            <input type="password" id="newPassword" placeholder="New Password" class="form-control">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-sm-12">
+                            <input type="password" id="confirmPassword" placeholder="Confirm Password" class="form-control">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-sm-12">
+                            <button type="button" id="changePassBtn" class="btn btn-info pull-left">Submit</button>
+                            <button type="reset" class="btn btn-info pull-right">Reset</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-primary">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <i class="fa fa-user"></i>
+                      <a href="edit-profile.html">
+                        Edit Profile
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+                <div class="panel panel-primary">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <i class="fa fa-comment"></i>
+                      <a data-toggle="collapse" data-parent="#accordion1" href="#collapseThree">
+                        Message<span class="badge badge-danger pull-right">1</span>
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseThree" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <label id="msg"></label>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-primary">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                      <i class="fa fa-calendar"></i> 
+                      <a data-toggle="collapse" data-parent="#accordion1" href="#collapseFour">
+                       Working Hour
+                     </a>
+                   </h4>
+                 </div>
+                 <div id="collapseFour" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <label id="working_hour"></label>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-primary">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <i class="fa fa-stethoscope"></i> 
+                    <a data-toggle="collapse" data-parent="#accordion1" href="#collapseFive">
+                      Leaves
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseFive" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <div class="panel-group" id="accordion2">
+                      <div class="panel panel-info">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <i class="fa fa-calendar"></i> 
+                            <a data-toggle="collapse" data-parent="#accordion2" href="#collapseSix">
+                             leaves taken
+                           </a>
+                         </h4>
+                       </div>
+                       <div id="collapseSix" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                          <label id="leave"></label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-info">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <i class="fa fa-calendar"></i> 
+                          <a data-toggle="collapse" data-parent="#accordion2" href="#collapseSeven">
+                           total leaves
+                         </a>
+                       </h4>
+                     </div>
+                     <div id="collapseSeven" class="panel-collapse collapse">
+                      <div class="panel-body">
+                        <label id="total_leave"></label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-info">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <i class="fa fa-calendar"></i> 
+                        <a data-toggle="collapse" data-parent="#accordion2" href="#collapseEight">
+                         leave status
+                       </a>
+                     </h4>
+                   </div>
+                   <div id="collapseEight" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <label id="leave_status"></label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <i class="fa fa-key"></i>
+              <a href="#collapseNine" data-toggle="collapse" data-parent="#accordion1">
+               leave application
+             </a>  
+           </h4>
+         </div>
+         <div id="collapseNine" class="panel-collapse collapse">
+          <div class="panel-body">
+            <form id="change-pass-form" class="form-horizontal" role="form">
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <label for="">Date From</label>
+                  <input type="date" id="" class="form-control">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <label for="">Date To</label>
+                  <input type="date" id="" class="form-control">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <label for="">Reason</label>
+                  <textarea name="" id="" class="form-control" cols="30" rows="5"></textarea>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <button type="button" id="" class="btn btn-info pull-right">Send</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><br><br><br>
+</div>
+</section>
+</div><br><br>
+
+<footer>
+  <p>Copyright &copy; 2015 <a href="http://zorrofoxtech.com/">zorrofox technologies pvt. ltd.</a></p>
+</footer>
+</div>
+
+<script src="js/jquery-1.10.1.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/change-password.js"></script>
+<script src="js/emp-details.js"></script>
+<script src="js/message.js"></script>
+<script src="js/working-hour.js"></script>
+<script src="js/leave.js"></script>
+
+</body>
+</html>

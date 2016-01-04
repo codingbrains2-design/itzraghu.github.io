@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Just Job</title>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/font-awesome.min.css">
+  <link rel="stylesheet" href="../css/job.css">
+
+</head>
+<body>
+  <div id="wrapper">
+    <!--nav-->
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../index.html">Just Job</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="nav-link" href="../jobs.html">Job Search</a></li>
+            <li class="dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
+                Recruiter Zone<b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="../recruiters.html">All Recruiters</a></li>
+              </ul>
+            </li>
+            <li><a class="nav-link" href="php/logout.php">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4 ">
+          <img src="" alt="Recruiter Image" class="img-responsive img-rounded userImage" height="100" width="200">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <h2 class="page-header">My Profile</h2>
+          <div>
+            <h4>Profile</h4>
+            <a href="full-profile.html">See Full Profile</a><br>
+            <a href="edit-profile.html">Update Profile</a>
+          </div><br>
+          <div>
+            <h4>Jobs & Applications</h4>
+            <a href="allApplicants.html">See Applicant</a><br>
+            <a href="download-resume.php">Search Resume</a><br>
+            <a href="all-post-jobs.html">See All Post Jobs</a><br>
+            <a href="post-job.html">Post a Job</a><br>
+          </div><br>
+          <div>
+            <h4>Setting</h4>
+            <a href="change-password.html">Change Password</a>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <h2 class="page-header" id="name"></h2>
+          <div>
+            <label class="text-muted" id="designation" for="">Designation: &nbsp;&nbsp;</label><br>
+            <label class="text-muted" id="mobile" for="">Mobile:&nbsp;&nbsp;</label><br>
+            <label class="text-muted" id="email" for="">Email:&nbsp;&nbsp;</label><br>
+            <label class="text-muted" id="experience" for="">Experience:&nbsp;&nbsp;</label><br>
+            <label class="text-muted" id="recruiting_area" for="">Recruiting Area:&nbsp;&nbsp;</label><br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Copyright &copy; 2015 <a href="http://zorrofoxtech.com/">zorrofox technologies pvt. ltd.</a></p>
+    </footer>
+  </div>
+
+  <script src="../js/jquery-1.10.1.min.js"></script>
+
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="js/recruiter-details.js"></script>
+
+</body>
+</html>

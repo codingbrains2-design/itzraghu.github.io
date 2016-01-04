@@ -1,0 +1,36 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 60px;
+}
+
+
+.navbar{
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+.navbar .nav li a
+{
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  color:#fff;
+  background-color: #044F67;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  line-height: 3.5em;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
